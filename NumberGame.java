@@ -37,7 +37,7 @@ public class NumberGame {
         for (int i = 1; i <= round; i++) {
             Random rand = new Random();
             NumberGame.setRandomNumber(rand.nextInt(100));
-            System.out.println(NumberGame.randomNumber);
+            
             Scanner numEntered = new Scanner(System.in);
 
             System.out.println("Generating random number .....");
