@@ -36,7 +36,7 @@ public class NumberGame {
         int score=0;
         for (int i = 1; i <= round; i++) {
             Random rand = new Random();
-            NumberGame.setRandomNumber(rand.nextInt(1000));
+            NumberGame.setRandomNumber(rand.nextInt(100));
             System.out.println(NumberGame.randomNumber);
             Scanner numEntered = new Scanner(System.in);
 
